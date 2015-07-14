@@ -6,9 +6,12 @@
     <title>Jane Canada</title>
     <style>
       body {
-      margin: 0;
-      background: url('{{site.baseurl}}/assets/bg.png');
-      background-size: 100vw 100vh;
+        margin: 0;
+        background: url('{{site.baseurl}}/assets/bg.png') no-repeat center center fixed;
+        background-size: cover;
+      }
+      body, html {
+        overflow: hidden;
       }
     </style>
     <script type="text/javascript" src="js/vendor/jquery.js"></script>
@@ -16,7 +19,7 @@
     <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
   </head>
   <body>
-    <img src="{{site.baseurl}}/assets/pat.png"  id="i0" class="i">
-    <img src="{{site.baseurl}}/assets/jane.png" id="i1" class="i">
+    <img src="{{site.baseurl}}/assets/jane.png"  id="i0" class="i">
+    <img src="{{site.baseurl}}/assets/pat.png" id="i1" class="i">
   </body>
 </html>
